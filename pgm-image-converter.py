@@ -2,7 +2,7 @@ import numpy as np
 
 import cv2
 import re
-
+#function copied from someone who had the same problem as me
 def read_pgm(filename, byteorder='>'):
 
     with open(filename, 'rb') as f:
