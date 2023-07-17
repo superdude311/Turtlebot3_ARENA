@@ -59,8 +59,6 @@ def listener():
     print('listener running')
     rospy.spin()
 
-
-
 if __name__ == '__main__':
     p1 = mp.Process(target=listener)
     p2 = mp.Process(target=arenaMain)
@@ -68,4 +66,3 @@ if __name__ == '__main__':
     p1.start()
     p2.join()
     p1.join()
-
