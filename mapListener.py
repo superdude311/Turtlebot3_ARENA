@@ -33,7 +33,7 @@ def arenaLoop():
         return
     for i in range(lidarMap.shape[1]):
         for j in range(lidarMap.shape[0]):
-            if lidarMap[j,i] >= 75:
+            if lidarMap[j,i] >= 50:
                 x = lidarMap.shape[0]-j-(lidarMap.shape[0]/2)
                 z = i-(lidarMap.shape[1]/2)
                 sf = 4 #scale factor for pos/scale
