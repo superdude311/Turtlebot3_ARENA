@@ -103,3 +103,4 @@ def move():
     scene.update_object(path) #update line path + color in the loop so the line disappears as the robot drives over it
 scene.update_object(floorplane, clickable=True, evt_handler=mouseHandler)
 scene.run_tasks()
+#this is identifiable
