@@ -33,6 +33,9 @@ NOTE: Make sure to select NOETIC at the top of your screen, otherwise, instructi
 7. Click around!
 
 ### Things to note:
+
 Turtlebot password: turtlebot 
+
 Thinkcenter password: turtlebot
+
 Need to have a .pgm and .yaml file in the home directory of the host machine
